@@ -1,0 +1,8 @@
+#Permisao de arquivo
+chmod +x python_script.sh
+
+#Executar o scrip
+./python_script.sh
+
+#Alteracao da permisao p/ proprietario tenha permissao de leitura e escrita, enquanto os demais só de leitura.
+chmod 644 python_script.sh
